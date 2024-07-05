@@ -26,16 +26,16 @@ body {
   font-style: normal;
 }
 
+.lekton-semibold {
+  font-family: "Lekton", monospace;
+  font-weight: 550;
+  font-style: normal;
+}
+
 .lekton-regular-italic {
   font-family: "Lekton", monospace;
   font-weight: 400;
   font-style: italic;
-}
-
-.code-regular {
-  font-family: "Lekton", monospace;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .m-plus-1-code-550 {

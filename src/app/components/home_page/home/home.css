@@ -1,0 +1,68 @@
+.home-div {
+    color: var(--text-color);
+    position: relative;
+    width: 95%;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5% 0%
+}
+
+h1 {
+    font-size: 5rem;
+    background: -webkit-linear-gradient(180deg, var(--accent-color) 38%, var(--secondary-color), var(--primary-color) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.job-title {
+    font-size: 2.25rem;
+    padding-bottom: 1rem;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    max-width: 45rem;
+    padding-bottom: 5%;
+}
+
+.image-div {
+    border-color: var(--secondary-color);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    max-width: 25rem;
+    min-width: 25rem;
+    max-height: 30rem;
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-div-container {
+    padding-left: 5%;
+}
+
+@media screen and (max-width: 800px) {
+    .home-div {
+        flex-direction: column;
+        justify-content: none;
+        align-items: none;
+        width: 100%;
+    }
+
+    .text-div {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .image-div-container {
+        padding-left: 0%;
+    }
+}
