@@ -1,5 +1,5 @@
 import {Header} from './components/common/component_index.js'
-import {Home, About} from './components/home_page/page_index.js'
+import {Home, About, Projects} from './components/home_page/page_index.js'
 
 export default function Main() {
 
@@ -7,6 +7,8 @@ export default function Main() {
     <>
       <Header />
       <Home />
+      <About />
+      <Projects />
     </>
   );
 }

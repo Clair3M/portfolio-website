@@ -1,4 +1,4 @@
-.about-div {
+.projects-div {
     color: var(--text-color);
     position: relative;
     width: 100%;
@@ -11,10 +11,16 @@
     padding-bottom: 6rem;
 }
 
-.name {
-    font-size: 5rem;
+.text-div {
+    padding-bottom: 6rem;
 }
 
-.job-title {
-    font-size: 2.25rem;
+.projects-container {
+
+}
+
+.projects-container {
+    border-width: 1px;
+    border-color: var(--secondary-color);
+    height: 20rem;
 }

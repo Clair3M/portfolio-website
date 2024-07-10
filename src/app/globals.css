@@ -7,6 +7,7 @@
   --text-color: #F2F2F2;
   --primary-color: #FF85E4;
   --secondary-color: #DDDBFF;
+  --secondary-color-translucent: #DDDBFF77;
   --accent-color: #6FEAFF;
 }
 
@@ -28,7 +29,7 @@ body {
 
 .lekton-semibold {
   font-family: "Lekton", monospace;
-  font-weight: 550;
+  font-weight: 525;
   font-style: normal;
 }
 
